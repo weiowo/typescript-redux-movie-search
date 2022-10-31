@@ -1,11 +1,130 @@
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user-page{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
 }
+
+.displayUsers{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.userbox{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  gap:10px;
+}
+
+.userInfo{
+  display:flex;
+  gap:20px;
+  justify-content: flex-start;
+}
+
+.changeInput{
+  display:flex;
+  gap:10px;
+}
+
+/* movie-area */
+
+.movie-page{
+  width:100vw;
+  height:100vh;
+  background-color:#9ca8b8;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-area{
+  width:50vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box{
+  width:90%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:150px;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 600;
+  height:100px;
+  display:flex;
+  align-items: center;
+}
+
+.input-area{
+  height:50px;
+  width:70%;
+  display:flex;
+  align-items: center;
+  margin-bottom:30px;
+}
+
+.search-input{
+  font-size: 20px;
+  border:none;
+  width:80%;
+  padding-left: 10px;
+  height:50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.search-button{
+  font-size: 20px;
+  height:50px;
+  width:20%;
+  border:none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.result-display{
+  display:flex;
+  align-items: center;
+  height:150px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.middle-line{
+  height:90vh;
+  width:1px;
+  background-color: black;
+}
+
+.keyword-result-display{
+  height:150px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -28,11 +147,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
