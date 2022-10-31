@@ -16,11 +16,14 @@ function Movies(){
     //這邊的movieList使用到的state，等於是index中configuresotre的reducer，所以可以選要哪一個
     //選好後，會使用movieSlice的資料
     const dispatch = useDispatch()
+
+    // i18n多國語系
     const { t, i18n } = useTranslation()
     const changeLanguage = (lng: string) => {
         i18n.changeLanguage(lng);
     };
 
+    // fetch data
     useEffect(() => {
       fetch('https://json-faker.onrender.com/movies')
         .then(res => res.json())
