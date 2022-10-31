@@ -1,0 +1,10 @@
+{
+    "searchMovieFullNameTitle": "Search by name",
+    "searchMoviePlaceholder": "Please enter movie's name...",
+    "search": "search",
+    "filterMovieKeyWordTitle": "Search by keyword",
+    "langChoices":"Language",
+    "searchMovieResult": "Movie found: ",
+    "searchMovieNoResult": "No such movie.",
+    "searchKeyWordPlaceholder": "Please enter keyword..."
+}

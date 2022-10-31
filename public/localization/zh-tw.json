@@ -1,0 +1,10 @@
+{
+    "searchMovieFullNameTitle": "搜尋電影資料",
+    "searchMoviePlaceholder": "請輸入完整電影名稱...",
+    "search": "搜尋",
+    "filterMovieKeyWordTitle": "關鍵字篩選",
+    "langChoices":"語言選擇",
+    "searchMovieResult": "查到此電影：",
+    "searchMovieNoResult": "查無此電影!",
+    "searchKeyWordPlaceholder": "請輸入關鍵字..."
+}

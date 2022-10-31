@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { configureStore } from '@reduxjs/toolkit';
 import moviesReducer from "./store/movieSlice"
 import { Provider } from 'react-redux';
+import './i18n'
 // import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 
 const store = configureStore({
