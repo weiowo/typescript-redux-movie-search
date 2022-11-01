@@ -140,10 +140,12 @@
 
 .result-display{
   display:flex;
+  flex-direction: column;
   align-items: center;
   height:150px;
   font-size: 20px;
   font-weight: 500;
+  gap:15px;
 }
 
 .middle-line{
@@ -159,14 +161,29 @@
   align-items: center;
 }
 
-.keyword-result{
+.keyword-result-title{
   font-size:20px;
   font-weight:550;
+}
+
+.keyword-result-poster{
+  width:90px;
 }
 
 .lang-button-container{
   display:flex;
   width:auto;
+}
+
+.image-box{
+  display: flex;
+  gap:10px;
+}
+
+.info-area{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
 
 
